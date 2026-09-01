@@ -1,6 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
-  <title id="title">Preview de site de advocacia</title><desc id="desc">Interface sóbria para escritório de advocacia corporativa.</desc>
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#121a2b"/><stop offset="1" stop-color="#261b2e"/></linearGradient></defs>
-  <rect width="640" height="360" rx="22" fill="url(#bg)"/><rect x="35" y="31" width="570" height="298" rx="14" fill="#171e30" stroke="#6b4a31"/><rect x="35" y="31" width="570" height="44" rx="14" fill="#111827"/><text x="63" y="59" fill="#e3a54e" font-family="Georgia,serif" font-size="13" font-weight="700">ALMEIDA &amp; TORRES</text><text x="502" y="59" fill="#a7a9b4" font-family="Arial,sans-serif" font-size="9">ESCRITÓRIO</text><line x1="72" y1="101" x2="568" y2="101" stroke="#5d4638"/><text x="72" y="150" fill="#f5f0e9" font-family="Georgia,serif" font-size="29" font-weight="700">Excelência na defesa</text><text x="72" y="184" fill="#e3a54e" font-family="Georgia,serif" font-size="29" font-weight="700">dos seus interesses.</text><text x="72" y="214" fill="#9ca3af" font-family="Arial,sans-serif" font-size="12">Direito empresarial, tributário e compliance.</text><rect x="72" y="244" width="124" height="34" rx="4" fill="#c47a29"/><text x="94" y="266" fill="#1c1720" font-family="Arial,sans-serif" font-size="11" font-weight="700">CONHEÇA O ESCRITÓRIO</text><path d="M496 113h45v115h-45zM473 143h91v23h-91z" fill="#d4a15d" opacity=".22"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="almeida-title almeida-desc">
+  <title id="almeida-title">Preview de site de advocacia Almeida &amp; Torres</title>
+  <desc id="almeida-desc">Interface sóbria para escritório de advocacia corporativa.</desc>
+  <defs>
+    <linearGradient id="almeida-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#10182a"/>
+      <stop offset="1" stop-color="#2a1d2f"/>
+    </linearGradient>
+    <linearGradient id="almeida-cta" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d99943"/>
+      <stop offset="1" stop-color="#b86623"/>
+    </linearGradient>
+  </defs>
 
+  <rect width="640" height="360" rx="22" fill="url(#almeida-bg)"/>
+  <rect x="35" y="31" width="570" height="298" rx="14" fill="#171e30" stroke="#c58a48" stroke-opacity=".52"/>
+  <rect x="35" y="31" width="570" height="44" rx="14" fill="#101725"/>
+  <path d="M49 75h542" stroke="#9b6c40" stroke-opacity=".22"/>
+  <text x="63" y="59" fill="#e3a54e" font-family="Georgia,serif" font-size="13" font-weight="700" letter-spacing=".4">ALMEIDA &amp; TORRES</text>
+  <text x="478" y="59" fill="#a7a9b4" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.2">ADVOCACIA</text>
+  <line x1="72" y1="101" x2="568" y2="101" stroke="#76533d" stroke-opacity=".8"/>
+  <text x="72" y="123" fill="#d99943" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.5">ESTRATÉGIA JURÍDICA</text>
+  <text x="72" y="153" fill="#f5f0e9" font-family="Georgia,serif" font-size="28" font-weight="700">Excelência na defesa</text>
+  <text x="72" y="186" fill="#e3a54e" font-family="Georgia,serif" font-size="28" font-weight="700">dos seus interesses.</text>
+  <text x="72" y="215" fill="#aeb4c0" font-family="Arial,sans-serif" font-size="12">Direito empresarial, tributário e compliance.</text>
+  <rect x="72" y="244" width="172" height="36" rx="5" fill="url(#almeida-cta)"/>
+  <text x="89" y="267" fill="#1c1720" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing=".15">CONHEÇA O ESCRITÓRIO</text>
+  <path d="M226 262h9m-4-4 4 4-4 4" fill="none" stroke="#1c1720" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="none" stroke="#d4a15d" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M479 224v-91h32l15 18v73" stroke-width="2" opacity=".38"/>
+    <path d="M471 224h63M473 133h47M478 126h38l4 7h-46Z" stroke-width="2" opacity=".45"/>
+    <path d="M487 224v-69M502 224v-69M517 224v-69" stroke-width="2" opacity=".32"/>
+  </g>
+</svg>
