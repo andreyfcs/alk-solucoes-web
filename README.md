@@ -1,6 +1,6 @@
-# Portfólio de Desenvolvimento Web Front-End
+# ALK Soluções Web
 
-Este repositório contém o código-fonte do meu portfólio profissional e de 6 projetos demonstrativos desenvolvidos para exibição comercial.
+Este repositório contém o site institucional da ALK Soluções Web, seu portfólio profissional e seis projetos demonstrativos desenvolvidos para apresentação comercial.
 
 ## 🚀 Tecnologias Utilizadas
 - **HTML5**: Semântico e estruturado para acessibilidade e SEO.
@@ -18,4 +18,6 @@ Nenhum framework ou biblioteca pesada foi utilizada para garantir carregamento i
 ## 💻 Como Executar Localmente
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/](https://github.com/)[seu-usuario]/portfolio.git
+   git clone https://github.com/andreyfcs/alk-solucoes-web.git
+   ```
+
