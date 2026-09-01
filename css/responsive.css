@@ -1,0 +1,49 @@
+@media (max-width: 980px) {
+    .hero-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+    .nav-list { gap: 15px; }
+    .nav-link { font-size: .84rem; }
+    .hero-grid { gap: 40px; }
+    .hero-trust { right: -8px; }
+    .grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .proof-grid { grid-template-columns: 1.1fr repeat(3, 1fr); gap: 16px; }
+    .proof-item { font-size: .72rem; }
+}
+
+@media (max-width: 768px) {
+    .section-padding { padding: 76px 0; }
+    .hero-grid, .cards-grid, .sobre-grid, .footer-grid { grid-template-columns: 1fr; }
+    .hero { padding-top: 126px; padding-bottom: 96px; }
+    .hero-content { text-align: center; }
+    .hero-content > p { margin-left: auto; margin-right: auto; }
+    .hero-ctas { justify-content: center; }
+    .hero-art { aspect-ratio: 1.5; }
+    .hero-trust { right: 12px; }
+    .proof-grid { grid-template-columns: 1fr; gap: 0; padding-top: 25px; padding-bottom: 25px; }
+    .proof-lead { padding: 0 0 18px; border-right: 0; border-bottom: 1px solid rgba(120, 174, 216, .16); }
+    .proof-lead strong { max-width: none; }
+    .proof-item { padding-top: 14px; }
+    .hamburger { display: flex; }
+    .nav-menu { position: absolute; top: 78px; left: -100%; width: 100%; height: calc(100vh - 78px); background: rgba(5, 16, 29, .98); transition: left .3s ease; }
+    .nav-menu.active { left: 0; }
+    .nav-list { flex-direction: column; gap: 25px; padding: 48px 0; }
+    .nav-link { font-size: 1rem; }
+    .nav-btn { min-width: 150px; }
+    .step:not(:last-child)::after { display: none; }
+    .sobre-grid { gap: 38px; }
+    .sobre-text .section-title { text-align: center; }
+    .sobre-text { text-align: center; }
+    .about-points { justify-content: center; }
+    .footer-grid { gap: 28px; }
+}
+
+@media (max-width: 520px) {
+    .container { width: min(91%, 1200px); }
+    h1 { font-size: 2.5rem; }
+    .hero-ctas .btn { width: 100%; }
+    .hero-trust { position: relative; right: auto; bottom: auto; width: fit-content; max-width: calc(100% - 24px); margin: -17px 12px 0 auto; }
+    .portfolio-grid { grid-template-columns: 1fr; }
+    .grid-3 { grid-template-columns: 1fr; }
+    .service-media, .card-img { height: 180px; }
+    .footer { text-align: center; }
+    .footer ul { display: inline-block; }
+}
