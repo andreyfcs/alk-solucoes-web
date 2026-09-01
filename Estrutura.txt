@@ -1,0 +1,24 @@
+/
+├── index.html
+├── css/
+│   ├── style.css
+│   └── responsive.css
+├── js/
+│   └── script.js
+├── assets/
+│   ├── images/
+│   └── icons/
+├── projetos/
+│   ├── landing-pessoal/
+│   │   └── index.html
+│   ├── landing-infoproduto/
+│   │   └── index.html
+│   ├── advogado/
+│   │   └── index.html
+│   ├── contador/
+│   │   └── index.html
+│   ├── clinica/
+│   │   └── index.html
+│   └── empresa/
+│       └── index.html
+└── README.md
